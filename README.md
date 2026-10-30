@@ -1,7 +1,7 @@
 # Jesús Alejandro Cortés (`knju`)
 
 **Linux Systems Administrator | Infrastructure & Automation | Support & Security Engineering**  
-📍 Santa Cruz de Tenerife, Spain (EU • Remote-Ready) • 🌐 [**knju.dev**](https://knju.dev) • 📫 [jcor.alejandro@gmail.com](mailto:jcor.alejandro@gmail.com)
+📍 Santa Cruz de Tenerife, Spain (EU • Remote-Ready) • 🌐 • 📫 [jcor.alejandro@gmail.com](mailto:jcor.alejandro@gmail.com)
 
 ---
 
