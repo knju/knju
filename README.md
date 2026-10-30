@@ -25,7 +25,6 @@ Designed and deployed an end-to-end automated publishing infrastructure from scr
 
 #### 2. Offensive Security Tooling & Real-Time Lab Telemetry
 Custom tooling built for penetration testing labs (Hack The Box) and protocol reverse-engineering:
-- **Protocol Exploitation (`attack.py`):** Custom Python raw-socket exploit built to reverse-engineer and compromise a non-standard Line Printer Daemon (LPD) network service (*HTB Paperwork*) where standard enumeration tools failed.
 - **Wayland VPN/Target Telemetry (`htb-watch` & `HtbStatus.qml`):** Background shell daemon, Fish workflow functions (`target`), and a native **QuickShell/QML** status module that parses active `tun0` VPN interfaces and renders live target IP/box telemetry directly on the desktop HUD.
 
 #### 3. Remote Wayland IPC Controller
