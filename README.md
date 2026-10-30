@@ -17,7 +17,7 @@ Hands-on Linux systems administrator and infrastructure builder focused on self-
 
 ### Featured Infrastructure & Engineering Work
 
-#### 1. Self-Hosted Container-to-Host CI/CD Pipeline ([`knju.dev`](https://knju.dev))
+#### 1. Self-Hosted Container-to-Host CI/CD Pipeline
 Designed and deployed an end-to-end automated publishing infrastructure from scratch on a hardened Debian node:
 - **Isolated Git Hosting:** Self-hosted **Forgejo** instance running inside **rootless Podman** (port `2222`) fronted by an **Nginx** reverse proxy.
 - **Cross-Boundary Webhook Engine:** Custom **Python HTTP webhook listener** on the host OS bound across the container bridge (`10.89.0.1`) with strict **SSRF mitigations** and payload validation.
