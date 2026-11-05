@@ -1,4 +1,4 @@
-# Jesús Alejandro Cortés (`knju`)
+# Jesús Alejandro Cortés Pandele (`knju`)
 
 **Linux Systems Administrator | Infrastructure & Automation | Support & Security Engineering**  
 📍 Santa Cruz de Tenerife, Spain (EU • Remote-Ready) • 🌐 • 📫 [jcor.alejandro@gmail.com](mailto:jcor.alejandro@gmail.com)
@@ -10,7 +10,7 @@
 Hands-on Linux systems administrator and infrastructure builder focused on self-hosted production environments, rootless container architectures, network protocol analysis, and systems automation. 
 
 - **Daily Driver & Lab:** Arch Linux (`linux-zen` / Hyprland / QuickShell) on the desktop; hardened Debian, rootless Podman, and QEMU/KVM + OPNsense on the server and virtualized network stack.
-- **Automation First:** If a workflow has to be done twice, I script it in **Python**, **Bash**, or **Fish**, or wire it directly into system IPC sockets and systemd units.
+- **Automation First:** If a workflow has to be done twice, I script it in **Python**, **Bash**, or wire it directly into system IPC sockets and systemd units.
 - **Languages:** Native/Bilingual **English** & **Spanish**.
 
 ---
@@ -19,7 +19,7 @@ Hands-on Linux systems administrator and infrastructure builder focused on self-
 
 #### 1. Self-Hosted Container-to-Host CI/CD Pipeline
 Designed and deployed an end-to-end automated publishing infrastructure from scratch on a hardened Debian node:
-- **Isolated Git Hosting:** Self-hosted **Forgejo** instance running inside **rootless Podman** (port `2222`) fronted by an **Nginx** reverse proxy.
+- **Isolated Git Hosting:** Self-hosted **Forgejo** instance running inside **rootless Podman** fronted by an **Nginx** reverse proxy.
 - **Cross-Boundary Webhook Engine:** Custom **Python HTTP webhook listener** on the host OS bound across the container bridge (`10.89.0.1`) with strict **SSRF mitigations** and payload validation.
 - **Zero-Downtime Releases:** Automated **Bash** build pipeline triggered on `git push` to pull commits, compile static assets via **Hugo**, and atomically update production web roots.
 
@@ -32,6 +32,15 @@ Custom tooling built for penetration testing labs (Hack The Box) and protocol re
 
 #### 4. Linux Onboarding & Technical Documentation Series (ES)
 - Authored a three-part Spanish technical guide series—***Introducción a Linux***, ***Iniciación a Linux***, and ***Inmersión en Linux***—designed to take vocational IT students from foundational CLI navigation and permissions to practical system administration.
+
+#### 5. Simulated Service Desk
+Designed and deployed a small enterprise IT support environment to practice L2 service desk workflows containing:
+- **Ticketing:** osTicket with Active Directory LDAP integration
+- **SLA Framework:** Sev-A to Sev-D priority matrix with 24/7 and business-hours response/resolution targets automated via Help Topics
+- **Directory Services:** An Active Directory Forest
+- **AD Structure:** Departmental OUs with a least-privilege structure.
+- **Automation:** PowerShell scripts for bulk CSV user onboarding, password resets/unlocks, and secure user offboarding
+- **Runbooks:** 3 documented resolution procedures (`RB-001` to `RB-003`) with verification steps and escalation criteria
 
 ---
 
